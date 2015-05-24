@@ -1,78 +1,13 @@
-@import url(http://weloveiconfonts.com/api/?family=zocial);
-
-body {
-	font-family: 'Open Sans', sans-serif;
-}
-
 .img-main {
-	max-width: 80%;
+	width: 100%;
 }
 
 .center-rec {
 	margin: 0 auto;
 }
 
-.social {
-	margin-top: 20px;
-}
-
-[class*="zocial-"]:before {
-  font-family: 'zocial', sans-serif;
-}
-
-[class^="zocial-"] {
-	font-size: 1.5em;
-	margin-right: 20px;
-}
-
-.col-centered {
-    margin: 0 auto;
-}
-
-
 @media (max-width:768px) {
-	img-main {
-		width: 100vw;
-	}
-
 	.center-rec {
 		float: none;
 	}
 }
-
-
-/*@media only screen {
-	.view {
-		padding: 1px;
-		overflow: hidden;
-	}
-
-	.view:hover {
-		padding: 0px;
-		border-width: 1px;
-		border-style: solid;
-		border-color: #000000;
-	}
-
-	.view img { 
-	    transition: all 0.2s linear;
-	}
-
-	.view .post-description {
-		position: absolute;
-		left: 10%;
-		bottom: 10%;
-		opacity: 0;
-	}
-
-	.view:hover img { 
-		-webkit-filter: blur(20px);
-		-moz-filter: blur(20px);
-		filter: blur(20px);
-		opacity: 0.5;
-	} 
-
-	.view:hover .post-description {
-		opacity: 1;
-	}
-}*/
