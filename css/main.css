@@ -1,56 +1,47 @@
-body
-{
+body {
 	font-family: "Open Sans", sans-serif;
 }
 
-.img-main
-{
+.img-main {
 	max-height: 50%
 }
 
-.center-rec
-{
+.center-rec {
 	margin: 0 auto;
 }
 
-.center-rec img
-{
+.center-rec img {
 	max-height: 330px;
 }
 
-.social
-{
+.social {
 	margin-top: 20px;
 }
 
-[class*="zocial-"]:before
-{
+[class*="zocial-"]:before {
   font-family: "zocial", sans-serif;
 }
 
-[class^="zocial-"]
-{
+[class^="zocial-"] {
 	font-size: 1.5em;
 	margin-right: 20px;
 }
 
-.col-centered
-{
+.col-centered {
     margin: 0 auto;
 }
 
-h1, h2, h3
-{
+h1,
+h2,
+h3 {
 	color: #666;
 }
 
-.projects-heading
-{
+.projects-heading {
 	color: #ccc;
 }
 
-@media (max-width:768px)
-{
+@media (max-width:768px) {
 	img-main
 	{
 		width: 100vw;
@@ -67,8 +58,7 @@ h1, h2, h3
 	}
 }
 
-@media (min-width: 768px)
-{
+@media (min-width: 768px) {
 	.projects-heading
 	{
 		padding-left: 15px;
@@ -78,8 +68,7 @@ h1, h2, h3
 
 /*Image-hover effects*/
 /*Not working for IE*/
-@media only screen
-{
+@media only screen {
 	.view
 	{
 		overflow: hidden;
@@ -87,6 +76,7 @@ h1, h2, h3
 
 	.view:hover
 	{
+		/*empty for historical reasons*/
 	}
 
 	.view img
